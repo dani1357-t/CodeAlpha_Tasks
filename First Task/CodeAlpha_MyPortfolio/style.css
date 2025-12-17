@@ -1,0 +1,1243 @@
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Story+Script&display=swap');
+
+  body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Source Sans Pro', sans-serif;
+
+  }
+  * {
+      font-family: 'Source Sans Pro', sans-serif;
+
+  }
+
+  .animate {
+      opacity: 0;
+      transform: translateY(60px);
+      transition: all 3s ease;
+      animation: animationText;
+  }
+
+  .animate.show {
+      opacity: 1;
+      transform: translateY(0);
+  }
+
+  .hero {
+      display: flex;
+      width: 100%;
+      height: 100vh;
+  }
+
+  .myPhoto {
+      width: 50%;
+
+      background-image: url(/CodeAlpha_MyPortfolio/Images/my\ photo.jpeg);
+      background-position: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+
+  .info {
+      background-color: #f1e2d7;
+      width: 50%;
+  }
+
+  .navbar-expand-lg .navbar-collapse {
+      justify-content: end;
+      margin-right: 40px;
+  }
+
+  .navbar-light .navbar-nav .active>.nav-link {
+
+      color: #E3AE57;
+      font-size: 17px;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 8px;
+      padding-left: 40px;
+      font-size: 17px;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link:hover {
+      color: #E3AE57;
+  }
+
+  .navbar-brand {
+      margin-right: 0px;
+      margin-left: 70px;
+      font-size: 27px;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 700;
+      text-shadow: 2px 2px #E3AE57;
+      color: #333;
+  }
+
+  .navbar {
+      padding: 1rem;
+
+  }
+
+
+  .infoText {
+      padding: 0px 45px;
+      position: relative;
+      top: 30px;
+  }
+
+  .infoText h4 {
+      color: #999;
+      font-size: 14px;
+      font-weight: normal;
+      margin: 0px;
+      margin-top: 30px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding-top: 6px;
+  }
+
+  .infoText h1 {
+      color: #3f3f3f;
+      font-size: 30px;
+      font-weight: 200;
+      margin: 0px;
+      margin-top: 20px;
+  }
+
+  .infoText h1 span {
+      color: #E3AE57;
+      font-size: 42px;
+      font-weight: 500;
+  }
+
+  .infoText p {
+      color: #888;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 28px;
+      letter-spacing: 0.2px;
+      margin-top: 25px;
+      margin-bottom: 80px;
+      line-height: 35px;
+  }
+
+  .infoText a {
+      text-decoration: none;
+      background-color: transparent;
+      padding: 12px 36px;
+      border-radius: 25px;
+      border: 3px solid #232B2B;
+      color: #232B2B;
+      transition: 0.5s;
+      font-size: 16px;
+      font-weight: bold;
+      font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  .infoText a:hover {
+      background-color: #E3AE57;
+      border: none;
+      color: #fff;
+  }
+
+  a.ankar {
+      font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  .row {
+      display: flex;
+      width: 99%;
+      margin-left: 12px;
+      padding-left: 0px;
+  }
+
+  .colOne {
+      width: 49.5%;
+      padding: 30px 30px;
+  }
+
+  .colOne h1 {
+      color: #333;
+      font-size: 40px;
+      font-weight: 300;
+      letter-spacing: 1px;
+  }
+
+  .colOne h3 {
+      color: #E3AE57;
+      font-size: 18px;
+      font-weight: 300;
+      letter-spacing: normal;
+  }
+
+  .colOne p {
+      color: #888;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 28px;
+      letter-spacing: 0.2px;
+  }
+
+  .colTwo {
+      background-image: url(/CodeAlpha_MyPortfolio/Images/Picture\ For\ Skill\ Section.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 25%;
+  }
+
+  .colThree {
+      width: 25.5%;
+      background-color: #E3AE57;
+      padding: 30px 20px;
+  }
+
+  .colThree h1 {
+      color: #fff;
+      font-weight: 300;
+      font-size: 40px;
+  }
+
+  .colThree h4 {
+      color: #ffffff;
+      font-size: 20px;
+      margin-bottom: 15px;
+      margin-top: 33px;
+  }
+
+  .colThree strong {
+      color: #232B2B;
+      font-size: 13px;
+  }
+
+  .htmlCss strong span {
+      color: #ffffff;
+      font-size: 13px;
+      margin-left: 155px;
+  }
+
+  .bootstrap strong span {
+      margin-left: 95px;
+      color: #ffffff;
+      font-size: 13px;
+  }
+
+  .illustrator strong span {
+      margin-left: 50px;
+      color: #ffffff;
+      font-size: 13px;
+  }
+
+  .progress {
+      height: 5px;
+      width: 90%;
+      background-color: #fff;
+      margin-bottom: 30px;
+  }
+
+  .progress-bar {
+      background-color: #232B2B;
+  }
+
+  .rowTwo {
+      display: flex;
+  }
+
+  .colFour {
+      background-color: #E3AE57;
+      width: 26%;
+      height: 60vh;
+      padding: 35px 12px;
+      text-align: center;
+  }
+
+  .colFive {
+      background-color: #e9724c;
+      width: 24%;
+      height: 60vh;
+      padding: 35px 15px;
+      text-align: center;
+  }
+
+  .colSix {
+      background-color: #161616;
+      width: 24.7%;
+      height: 60vh;
+      padding: 35px 10px;
+      text-align: center;
+  }
+
+  .colSeven {
+      background-color: #ffffff;
+      width: 25.2%;
+      height: 60vh;
+      padding: 35px 10px;
+      text-align: center;
+  }
+
+  .iconSetting i {
+      color: #ffffff;
+      font-size: 40px;
+      margin-top: 20px;
+  }
+
+  .colFour h3 {
+      color: #ffffff;
+      font-weight: 500;
+      font-size: 25px;
+      letter-spacing: 2px;
+      margin-top: 30px;
+  }
+
+  .colFour p {
+      color: #ffffff;
+      font-size: 16px;
+      line-height: 28px;
+      font-weight: 300;
+      margin-top: 20px;
+      letter-spacing: 1.5px;
+  }
+
+  .colFive h3 {
+      color: #ffffff;
+      font-weight: 500;
+      font-size: 25px;
+      letter-spacing: 1.5px;
+      margin-top: 30px;
+  }
+
+  .colFive p {
+      color: #ffffff;
+      font-size: 16px;
+      line-height: 28px;
+      font-weight: 300;
+      margin-top: 20px;
+      letter-spacing: 1.5px;
+  }
+
+  .colSix h3 {
+      color: #ffffff;
+      font-weight: 500;
+      font-size: 25px;
+      letter-spacing: 1.5px;
+      margin-top: 30px;
+  }
+
+  .colSix p {
+      color: #ffffff;
+      font-size: 16px;
+      line-height: 28px;
+      font-weight: 300;
+      margin-top: 20px;
+      letter-spacing: 1.5px;
+
+  }
+
+  .colSeven h3 {
+      color: #161616;
+      font-weight: 500;
+      font-size: 25px;
+      letter-spacing: 1px;
+      margin: 0px;
+      margin: 15px 0px;
+      margin-top: 26px;
+  }
+
+  .colSeven p {
+      color: #161616;
+      font-size: 16px;
+      line-height: 28px;
+      font-weight: 300;
+      margin: 0;
+      margin-top: 23px;
+      letter-spacing: 1.5px;
+  }
+
+  .iconSettingCode i {
+      color: #161616;
+      font-size: 40px;
+      margin-top: 20px;
+  }
+
+  .rowThree {
+      display: flex;
+      width: 100%;
+  }
+
+  .colEight {
+      background-image: url(/CodeAlpha_MyPortfolio/Images/experience-img.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: fixed;
+      height: 80vh;
+      width: 50%;
+  }
+
+  .colNine {
+      background-color: #e9724c;
+      width: 50%;
+      height: 80vh;
+      padding: 39.8px 41px;
+  }
+
+  .containerOne h1 {
+      color: #ffffff;
+      font-weight: 300;
+      font-size: 42px;
+      letter-spacing: 3px;
+      margin: 0;
+  }
+
+  .containerOne p {
+      color: #ffffff;
+      font-size: 16px;
+      letter-spacing: 3px;
+      font-weight: 200;
+  }
+
+  .containerTwo {
+      display: flex;
+  }
+
+  .containerThree {
+      display: flex;
+  }
+
+  .iconExperince i {
+      font-size: 40px;
+      color: #ffffff;
+      position: relative;
+      top: 20px;
+  }
+
+  .webDesigning {
+      margin-left: 20px;
+  }
+
+  .webDesigning h3 {
+      color: #ffffff;
+      font-size: 27px;
+      letter-spacing: 1px;
+      font-weight: 200;
+      margin: 0;
+      margin-top: 20px;
+  }
+
+  .webDesigning h3 small {
+      color: #633;
+      font-size: 16px;
+      letter-spacing: 1px;
+  }
+
+  .webDesigning p {
+      color: #ffffff;
+      font-size: 15px;
+      letter-spacing: 2px;
+      line-height: 25px;
+  }
+
+  .graphicsDesigning {
+      margin-left: 20px;
+  }
+
+  .graphicsDesigning h3 {
+      color: #ffffff;
+      font-size: 27px;
+      letter-spacing: 1px;
+      font-weight: 200;
+      margin: 0;
+      margin-top: 20px;
+  }
+
+  .graphicsDesigning h3 small {
+      color: #633;
+      font-size: 16px;
+      letter-spacing: 1px;
+  }
+
+  .graphicsDesigning p {
+      color: #ffffff;
+      font-size: 15px;
+      letter-spacing: 2px;
+      line-height: 25px;
+  }
+
+  .educationSection {
+      width: 100%;
+  }
+
+  .containerFour {
+      display: flex;
+      width: 100%;
+  }
+
+  .educationText {
+      width: 50%;
+      background-color: #E3AE57;
+      padding: 30px 30px;
+  }
+
+  .educationText h1 {
+      color: #ffffff;
+      font-weight: 100;
+      font-size: 40px;
+      letter-spacing: 4px;
+      margin: 0;
+      margin-bottom: 20px;
+  }
+
+  .rowEducation {
+      display: flex;
+  }
+
+  .iconEducation {
+      font-size: 40px;
+      color: #ffffff;
+      position: relative;
+      top: 20px;
+  }
+
+  .education h3 {
+      color: #ffffff;
+      font-size: 22px;
+      letter-spacing: 2px;
+      font-weight: 200;
+      margin: 0;
+      margin-top: 30px;
+      margin-left: 20px;
+  }
+
+  .education h3 small {
+      color: #886D1E;
+      font-size: 16px;
+      letter-spacing: 1px;
+  }
+
+  .education p {
+      color: #ffffff;
+      font-size: 15px;
+      letter-spacing: 2px;
+      line-height: 25px;
+      margin-left: 20px;
+      margin-top: 20px;
+  }
+
+  .education p a {
+      text-decoration: none;
+      color: red;
+  }
+
+  .education p a:hover {
+      color: #886D1E;
+  }
+
+  .educationImage {
+      background-image: url(/CodeAlpha_MyPortfolio/Images/education-img.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: fixed;
+      height: 130vh;
+      width: 50%;
+  }
+
+  .containerFive {
+      background-color: #e9724c;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+  }
+
+  .subContainerOne {
+      padding: 40px 30px;
+      width: 50%;
+  }
+
+  .subContainerOne h2 {
+      font-size: 42px;
+      letter-spacing: 2px;
+      color: #ffffff;
+      font-style: normal;
+  }
+
+  .subContainerOne p {
+      font-size: 16px;
+      line-height: 25px;
+      letter-spacing: 1px;
+      color: #ffffff;
+      margin-top: 20px;
+  }
+
+  .subContainerTwo {
+      width: 50%;
+      display: flex;
+  }
+
+  .yourName input {
+      background-color: transparent;
+      width: 500px;
+      border: none;
+      border-bottom: 1px solid #ffffff;
+      box-shadow: none;
+      color: #ffffff;
+      font-size: 18px;
+      margin-top: 10px;
+      margin-bottom: 35px;
+      transition: all 0.4s ease-in-out;
+      outline: none;
+  }
+
+  .yourName input::placeholder {
+      color: #ffffff;
+      opacity: 1;
+  }
+
+  .textField textarea {
+      background: transparent;
+      width: 500px;
+      border: none;
+      border-bottom: 1px solid #ffffff;
+      color: #ffffff;
+      font-size: 18px;
+      outline: none;
+      margin-top: 10px;
+      margin-bottom: 25px;
+      transition: all 0.4s ease-in-out;
+
+  }
+
+  .textField textarea::placeholder {
+      color: #ffffff;
+  }
+
+  .lastImage {
+      background-image: url(/CodeAlpha_MyPortfolio/Images/lastimage\ .jpeg);
+      background-position: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 50%;
+      height: 73vh;
+      position: relative;
+      left: px;
+  }
+
+  .btn-light {
+      background-color: #ffffff;
+      color: #161616;
+      padding: 10px 25px;
+      border-radius: 25px;
+      transition: 1s;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 300;
+  }
+
+  .btn-light:hover {
+      background-color: #e9724c;
+      color: #ffffff;
+      border: 3px solid #ffffff;
+  }
+
+  .visit {
+      background-color: #161616;
+      height: 73vh;
+      padding: 40px 20px;
+      width: 51%;
+  }
+
+  .visit h2 {
+      color: #ffffff;
+      font-size: 40px;
+      font-weight: 300;
+      font-style: normal;
+  }
+
+  .contactSetting {
+      display: flex;
+      position: relative;
+      top: 20px;
+  }
+
+  .iconPhone {
+      color: #888;
+      margin-bottom: 30px;
+      font-size: 20px;
+  }
+
+  .number a {
+      color: #888;
+      position: relative;
+      left: 10px;
+      font-size: 15px;
+      text-decoration: none;
+      transition: 1s;
+  }
+
+  .number a:hover {
+      color: #ffffff;
+  }
+
+  /* Responsive */
+
+  @media (min-width: 320px) and (max-width: 767px) {
+      .hero {
+          display: block;
+      }
+
+
+      .myPhoto {
+          width: 100%;
+          height: 75vh;
+      }
+
+      .info {
+          height: 115vh;
+          width: 100%;
+      }
+
+      .infoText h4 {
+          margin-top: 0px;
+          padding-top: 33px;
+      }
+
+      .infoText {
+          padding: 0px 24px;
+          position: relative;
+          top: 0px;
+      }
+
+      .infoText p {
+          margin-bottom: 30px;
+      }
+
+      .infoText a {
+
+          margin-top: 0px;
+
+      }
+
+      .navbar-brand {
+
+          font-size: 20px;
+          margin-left: 0px;
+          font-weight: 700;
+          text-shadow: 3px 2px 2px rgb(245, 192, 106);
+          color: #333;
+      }
+      .navbar-nav {   
+    position: relative;
+    right: 30px;
+}
+.navbar-light .navbar-brand {
+    color: rgba(27, 25, 25, 0.9);
+    margin-left: 10px;
+}
+
+      .row {
+          display: block;
+      }
+
+      .colOne h1 {
+          font-size: 36px;
+      }
+
+      .skills {
+          position: relative;
+          top: 458px;
+      }
+
+      .row {
+          display: block;
+          margin-left: 0px;
+          width: 100%;
+      }
+
+      .colOne {
+          width: 100%;
+          padding: 25px 24px;
+      }
+
+      .colTwo {
+          width: 100%;
+          height: 80vh;
+      }
+
+      .colThree {
+          width: 100%;
+          padding: 25px 24px;
+      }
+
+      .rowTwo {
+          display: block;
+      }
+
+      .colFour {
+          width: 100%;
+          padding: 15px 24px;
+      }
+
+      .colFive {
+          width: 100%;
+          padding: 15px 24px;
+      }
+
+      .colSix {
+          width: 100%;
+          padding: 15px 24px;
+      }
+
+      .colSeven {
+          width: 100%;
+          padding: 15px 24px;
+      }
+
+      .experience {
+          position: relative;
+          top: 480px;
+      }
+
+      .rowThree {
+          display: block;
+      }
+
+      .colEight {
+          width: 100%;
+      }
+
+      .colNine {
+          padding: 24px 24px;
+          width: 100%;
+          height: 112vh;
+      }
+
+      .containerOne h1 {
+          font-size: 36px;
+          letter-spacing: 2px;
+          margin-bottom: 10px;
+      }
+
+      .iconExperince i {
+          font-size: 30px;
+      }
+
+      .webDesigning h3 {
+          font-size: 24px;
+          letter-spacing: 0px;
+      }
+
+      .webDesigning h3 small {
+          font-size: 15px;
+          letter-spacing: 0px;
+      }
+
+      .webDesigning p {
+          font-size: 15px;
+          letter-spacing: 0px;
+          margin-top: 20px;
+      }
+
+      .graphicsDesigning h3 {
+          font-size: 24px;
+          letter-spacing: 0px;
+          margin-top: 17px;
+          margin-bottom: 10px;
+      }
+
+      .graphicsDesigning h3 small {
+          font-size: 15px;
+          letter-spacing: 0px;
+      }
+
+      .illustrator strong span {
+          margin-left: 44px;
+      }
+
+      .bootstrap strong span {
+          margin-left: 87px;
+      }
+
+      .graphicsDesigning p {
+          font-size: 15px;
+          letter-spacing: 0px;
+          margin-top: 20px;
+      }
+
+      .educationSection {
+          position: relative;
+          top: 480px;
+      }
+
+      .containerFour {
+          width: 100%;
+          display: block;
+      }
+
+      .educationText {
+          width: 100%;
+          padding: 25px 24px;
+      }
+
+      .educationText h1 {
+          font-size: 37px;
+          letter-spacing: 3px;
+          margin-bottom: 4px;
+      }
+
+      .iconEducation {
+          font-size: 30px;
+          position: relative;
+          top: 17px;
+      }
+
+      .education h3 {
+          font-size: 17px;
+          letter-spacing: 1px;
+          margin-top: 20px;
+      }
+
+      .education h3 small {
+          font-size: 15px;
+          letter-spacing: 1px;
+      }
+
+      .education p {
+          font-size: 15px;
+          letter-spacing: 0px;
+          margin-top: 15px;
+      }
+
+      .educationImage {
+          height: 50vh;
+          width: 100%;
+      }
+
+      .contact {
+          position: relative;
+          top: 480px;
+      }
+
+      .containerFive {
+          width: 100%;
+          height: 102vh;
+          display: block;
+      }
+
+      .subContainerOne {
+          padding: 24px 24px;
+          width: 100%;
+      }
+
+      .subContainerOne h2 {
+          font-size: 40px;
+      }
+
+      .subContainerOne p {
+          font-size: 15px;
+          letter-spacing: 0px;
+      }
+
+      .yourName input {
+          width: 269px;
+          margin-top: 0px;
+      }
+
+      .textField textarea {
+          width: 269px;
+          margin-top: 0px;
+          margin-bottom: 15px;
+      }
+
+      .btn-light {
+          padding: 8px 20px;
+          margin-top: 0px;
+      }
+
+      .subContainerTwo {
+          width: 100%;
+          display: block;
+          position: relative;
+          top: 1px;
+      }
+
+      .lastImage {
+          width: 100%;
+          height: 75vh;
+      }
+
+      .visit {
+          height: 72vh;
+          padding: 30px 24px;
+          width: 100%;
+      }
+  }
+
+  @media (min-width: 768px) and (max-width: 992px) {
+
+        .navbar-nav {   
+    margin-left: 30px;
+}
+   .hero {
+
+          height: 104vh;
+      }
+
+      .myPhoto {
+          height: 104vh;
+      }
+
+      .info {
+          height: 104vh;
+
+      }
+
+      .infoText {
+          padding: 0px 34px;
+          position: relative;
+          top: 20px;
+      }
+
+      .infoText h4 {
+          margin-top: 0px;
+      }
+
+      .infoText h1 {
+          font-size: 25px;
+          margin-top: 10px;
+      }
+
+      .infoText h1 span {
+          color: #E3AE57;
+          font-size: 37px;
+          font-weight: 500;
+      }
+
+      .infoText p {
+          font-size: 15px;
+          line-height: 26px;
+          margin-bottom: 36px;
+      }
+
+      .infoText a {
+          margin-top: 0px;
+      }
+
+      .row {
+          width: 100%;
+          margin-left: 0px;
+      }
+
+      .colOne {
+          width: 100%;
+          padding: 30px 24px;
+      }
+
+      .colTwo {
+          width: 50%;
+      }
+
+      .colThree {
+          width: 50%;
+      }
+
+      .rowTwo {
+          display: none;
+          width: 100%;
+          height: 119vh;
+      }
+
+      .colNine {
+          height: 120vh;
+          padding: 30px 30px;
+      }
+
+      .containerOne h1 {
+          font-size: 36px;
+      }
+
+      .rowThree {
+          background-color: #e9724c;
+      }
+
+      .containerOne p {
+          font-size: 14px;
+          letter-spacing: 2px;
+      }
+
+      .webDesigning h3 {
+          font-size: 26px;
+          letter-spacing: 0px;
+          margin-top: 18px;
+      }
+
+      .webDesigning h3 small {
+          font-size: 15px;
+          letter-spacing: 0px;
+      }
+
+      .webDesigning p {
+          font-size: 14px;
+          letter-spacing: 1px;
+          line-height: 25px;
+          margin-bottom: 0px;
+          margin-top: 10px;
+      }
+
+      .htmlCss strong span {
+          margin-left: 212px;
+      }
+
+      .bootstrap strong span {
+          margin-left: 150px;
+      }
+
+      .illustrator strong span {
+          margin-left: 106px;
+      }
+
+      .iconExperince i {
+          font-size: 34px;
+      }
+
+      .graphicsDesigning h3 {
+          font-size: 25px;
+          letter-spacing: 0px;
+          margin-top: 19px;
+      }
+
+      .graphicsDesigning p {
+          font-size: 14px;
+          letter-spacing: 1px;
+          margin-top: 10px;
+      }
+
+      .graphicsDesigning h3 small {
+          font-size: 15px;
+          letter-spacing: 1px;
+      }
+
+      .containerFour {
+          background-color: #E3AE57;
+          height: 156vh;
+      }
+      
+
+
+      .educationText {
+          padding: 25px 24px;
+      }
+
+      .educationText h1 {
+          font-size: 37px;
+          letter-spacing: 3px;
+          margin-bottom: 0px;
+      }
+
+      .iconEducation {
+          font-size: 34px;
+      }
+
+      .education h3 {
+          font-size: 20px;
+          letter-spacing: 2px;
+          margin-top: 24px;
+      }
+
+      .education p {
+          font-size: 14px;
+          letter-spacing: 1px;
+          line-height: 23px;
+          margin-top: 10px;
+          margin-bottom: -10px;
+      }
+
+      .containerFive {
+          display: grid;
+      }
+
+      .subContainerOne h2 {
+          letter-spacing: 4px;
+      }
+
+      .subContainerOne {
+          padding: 33px 24px;
+          width: 100%;
+          height: 100vh;
+      }
+
+      .subContainerOne p {
+          font-size: 15px;
+          line-height: 25px;
+          letter-spacing: 0px;
+          margin-top: 10px;
+      }
+
+      .yourName input {
+          width: 708px;
+      }
+
+      .textField textarea {
+          width: 708px;
+      }
+
+      .btn-light {
+          margin-top: 0px;
+      }
+
+      .subContainerTwo {
+          width: 100%;
+          height: 80vh;
+      }
+
+      .lastImage {
+          height: 80vh;
+      }
+
+      .visit {
+          height: 80vh;
+          width: 50%;
+      }
+  }
+
+  @media (min-width: 375px) and (max-width: 425px) {
+      .htmlCss strong span {
+          margin-left: 197px;
+      }
+
+      .bootstrap strong span {
+          margin-left: 134px;
+      }
+
+      .illustrator strong span {
+          margin-left: 90px;
+      }
+
+      .yourName input {
+          width: 309px;
+      }
+
+      .textField textarea {
+          width: 309px;
+      }
+
+  }
+
+  @media (min-width: 425px) and (max-width: 767px) {
+      .htmlCss strong span {
+          margin-left: 239px;
+      }
+
+      .bootstrap strong span {
+          margin-left: 177px;
+      }
+
+      .illustrator strong span {
+          margin-left: 133px;
+      }
+
+      .yourName input {
+          width: 344px;
+      }
+
+      .textField textarea {
+          width: 344px;
+      }
+  }
